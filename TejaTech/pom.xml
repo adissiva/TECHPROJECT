@@ -43,6 +43,14 @@
                 </execution>
             </executions>
         </plugin>
+        <plugin>
+        <groupId>com.heroku.sdk</groupId>
+  		<artifactId>heroku-maven-plugin</artifactId>
+  		<version>0.5.1</version>
+  		<configuration>
+  		<appName>study2333</appName>
+  		</configuration>
+        </plugin>
     </plugins>
   </build>
   <dependencies>
